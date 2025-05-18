@@ -409,9 +409,8 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 120%;
-    font-style: italic;
-    font-weight: 400;
+    font-size: 100%;
+    font-weight: 600;
 }
 
 @media(min-width:768px) {
@@ -710,10 +709,11 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #8CD5E9;
     background-image: url('{{ site.baseurl }}/css/2016_style/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#contact .section-heading {
